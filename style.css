@@ -9,33 +9,31 @@ body{
 }
 
 main{
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    text-align: center;
 }
-.box
-{
-    min-width: 100px;
-    min-height: 100px;
-    padding: 5rem;
-    color: white;
-    font-weight: bold;
-    font-size: 2rem;
-    cursor: pointer;
+h1{
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #efefef;
+    border-radius: 1rem;
 }
-.greandParent
-{
-    background: #b1d4e0;
-    color: black;
 
-}
-.parent
+button
 {
-    background: #145da0;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    transition: background 0.4s;
 }
-.child
-{
-    background: #0c2d48;
-    
+
+button:hover{
+    background: rgb(214,214,214);
 }
